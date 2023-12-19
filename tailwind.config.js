@@ -3,7 +3,12 @@ module.exports = {
   content: ["./src/**/*.{html,js}",
             "./dist/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'title': ['Kanit'],
+        'text': ['Overpass']
+      }
+    },
   },
   plugins: [],
 }
