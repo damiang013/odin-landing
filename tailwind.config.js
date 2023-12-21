@@ -6,8 +6,14 @@ module.exports = {
     extend: {
       fontFamily: {
         'title': ['Kanit'],
-        'text': ['Overpass']
-      }
+        'text': ['Overpass'],
+      },
+      transitionProperty: {
+        'bg': 'background color',
+      },
+      transitionDuration: {
+        '.2': '0.2s',
+      },
     },
   },
   plugins: [],
